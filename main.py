@@ -1,7 +1,6 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
-from typing import List
 from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List, Optional
 
 app = FastAPI()
 
