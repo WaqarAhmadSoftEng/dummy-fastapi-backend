@@ -69,8 +69,8 @@ class Attendance(BaseModel):
 
 # Dummy data
 attendance_data = [
-    {"date": "08-08-2025", "student_id": "1", "name": "waqar", "status": "Present"},
-    {"date": "08-08-2025", "student_id": "2", "name": "waqas", "status": "Present"},
+    {"date": "08-08-2025", "student_id": "910", "name": "waqar", "status": "Present"},
+    {"date": "08-08-2025", "student_id": "7767", "name": "waqas", "status": "Present"},
 ]
 
 
