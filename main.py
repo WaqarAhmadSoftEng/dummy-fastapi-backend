@@ -5,6 +5,7 @@ from typing import List
 app = FastAPI()
 
 class Attendance(BaseModel):
+    date: str
     student_id: str
     name: str
     status: str
