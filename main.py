@@ -13,9 +13,9 @@ class Attendance(BaseModel):
 
 
 attendance_data = [
-    {"date": "1-08-2025", "id": "1", "name": "Ali", "status": "Present"},
-    {"date": "1-08-2025", "id": "2", "name": "Ahmed", "status": "Absent"},
-    {"date": "1-08-2025", "id": "3", "name": "Sara", "status": "Present"},
+    {"date": "1-08-2025", "student_id": "1", "name": "Ali", "status": "Present"},
+    {"date": "1-08-2025", "student_id": "2", "name": "Ahmed", "status": "Absent"},
+    {"date": "1-08-2025", "student_id": "3", "name": "Sara", "status": "Present"},
 ]
 
 @app.get("/")
