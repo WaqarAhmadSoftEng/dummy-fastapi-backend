@@ -70,7 +70,14 @@ class Attendance(BaseModel):
 # Dummy data
 attendance_data = [
     {"date": "08-08-2025", "student_id": "910", "name": "waqar", "status": "Present"},
+    {"date": "08-07-2025", "student_id": "910", "name": "waqar", "status": "Absent"},
+    {"date": "08-06-2025", "student_id": "910", "name": "waqar", "status": "Absent"},
+    {"date": "08-05-2025", "student_id": "910", "name": "waqar", "status": "Present"},
+    {"date": "08-04-2025", "student_id": "910", "name": "waqar", "status": "Present"},
+
     {"date": "08-08-2025", "student_id": "7767", "name": "waqas", "status": "Present"},
+    {"date": "08-07-2025", "student_id": "7767", "name": "waqas", "status": "Absent"},
+    {"date": "08-06-2025", "student_id": "7767", "name": "waqas", "status": "Present"},
 ]
 
 
