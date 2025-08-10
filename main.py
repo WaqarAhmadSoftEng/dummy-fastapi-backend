@@ -85,18 +85,15 @@ def get_attendance():
 
 
 
-# Yeh aapka updated function hai. Aapko is function ko poora replace karna hai.
+
 @app.get("/attendance/{student_id}", response_model=List[Attendance])
 def get_single_attendance(student_id: str):
-    # Ek empty list banayein saare matching records ko store karne ke liye
+
     matching_records = []
     
-    # Saare records ko loop karein aur matching ones ko list mein add karein
     for record in attendance_data:
         if record["student_id"] == student_id:
             matching_records.append(record)
-
-    # Agar koi record nahi milta, toh 404 error return karein
     if not matching_records:
         raise HTTPException(status_code=404, detail="Student not found")
         
